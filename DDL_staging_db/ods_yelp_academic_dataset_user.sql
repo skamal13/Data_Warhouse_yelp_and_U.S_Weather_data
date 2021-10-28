@@ -1,0 +1,26 @@
+CREATE TABLE ods_yelp_academic_dataset_user (
+	user_id varchar NOT NULL,
+	"name" varchar NULL,
+	review_count int8 NULL,
+	yelping_since timestamp NULL,
+	useful int8 NULL,
+	funny int8 NULL,
+	cool int8 NULL,
+	elite varchar NULL,
+	friends text NULL,
+	fans int8 NULL,
+	average_stars float8 NULL,
+	compliment_hot int8 NULL,
+	compliment_more int8 NULL,
+	compliment_profile int8 NULL,
+	compliment_cute int8 NULL,
+	compliment_list int8 NULL,
+	compliment_note int8 NULL,
+	compliment_plain int8 NULL,
+	compliment_cool int8 NULL,
+	compliment_funny int8 NULL,
+	compliment_writer int8 NULL,
+	compliment_photos int8 NULL,
+	CONSTRAINT ods_yelp_academic_dataset_user_pk PRIMARY KEY (user_id)
+);
+
